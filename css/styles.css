@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+p, ul {
+    color: #34495e;
+    line-height: 1.6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #2c3e50;
+}
+
+.nav-link:hover {
+    color: #2980b9;
+}
+
+.card {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    height: 200px; /* Altura fija para las imágenes de las tarjetas */
+    object-fit: cover;
+}
+
+.bg-index {
+    background-image: url('img/seguretat.candau.jpg'); /* Cambia esta ruta por la de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.blue-box {
+    background-color:#fff; /* Azul fuerte */
+    color: #fff; /* Letras blancas */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    text-align: center; /* Centrar el texto */
+    margin-top: 20px; /* Espacio en la parte superior */
+    margin-bottom: 20px; /* Espacio en la parte inferior */
+}
+
+
+.mt-auto {
+    margin-top: auto;
+}
